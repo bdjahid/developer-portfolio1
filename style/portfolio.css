@@ -49,7 +49,7 @@ nav li {
     font-size: 15px;
     border: 0;
     padding: 18px 35px;
-    height: 64px;
+    height: 54px;
     border-radius: 5px;
     background: #FD6E0A;
 } 
@@ -86,7 +86,7 @@ main {
 /* about section style */
 .about {
     text-align: center;
-    margin-top: 130px;
+    margin: 130px 0 100px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -94,7 +94,7 @@ main {
 
 .section-title {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-weight: 700;
     font-size: 35px;
 }
@@ -102,7 +102,7 @@ main {
 .section-description {
     color: #757575;
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .about-info-container {
@@ -121,7 +121,15 @@ main {
     font-size: 20px;
     color: #474747;
 }
-
+.what-i -do{
+margin-bottom: 100px;
+}
+.section-dec{
+    text-align: center;
+    margin: auto;
+    width: 700px;
+    margin-bottom: 50px;
+}
 .skills-container {
     display: flex;
     gap: 24px;
@@ -154,6 +162,7 @@ section {
     text-align: center;
     font-weight: 700;
     font-size: 30px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -198,7 +207,13 @@ section {
     background: #FFF8F3;
     padding: 130px 200px;
 }
-
+.contact-link{
+    margin-top: 20px;
+}
+.contact-link img{
+    padding: 10px;
+    background-color: rgb(112, 112, 102);
+}
 .contact .section-title {
     text-align: left;
 }
